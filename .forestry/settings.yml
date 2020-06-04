@@ -4,6 +4,22 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*.kr.md"
+  new_doc_ext: ".kr.md"
+- type: heading
+  label: 한국어
+- type: directory
+  path: content/posts
+  label: Posts
+  create: all
+  match: "**/*.en.md"
+  new_doc_ext: ".en.md"
+- type: heading
+  label: English
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
