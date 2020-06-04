@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "**/*.kr.md"
-  new_doc_ext: ".kr.md"
+  new_doc_ext: kr.md
 - type: directory
   path: content/posts
   label: Posts
