@@ -9,7 +9,7 @@ sections:
   label: All pages
   create: all
   match: "*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: ''
   label: Pages
