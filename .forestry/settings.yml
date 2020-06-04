@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "*.kr.md"
-  new_doc_ext: app
+  new_doc_ext: ''
 - type: directory
   path: content/posts
   label: Posts
@@ -37,9 +37,9 @@ sections:
   path: ''
   label: Pages
   create: all
-  match: "*.md"
+  match: "*.en.md"
   exclude: "*README.md"
-  new_doc_ext: md
+  new_doc_ext: ".en.md"
 - type: document
   path: _config.yml
   label: Config
