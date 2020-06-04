@@ -9,7 +9,7 @@ sections:
   label: Posts
   create: all
   match: "**/*.kr.md"
-  new_doc_ext: ".kr.md"
+  new_doc_ext: kr.md
 - type: heading
   label: 한국어
 - type: directory
@@ -17,7 +17,7 @@ sections:
   label: Posts
   create: all
   match: "**/*.en.md"
-  new_doc_ext: ".en.md"
+  new_doc_ext: en.md
 - type: heading
   label: English
 - type: document
